@@ -5,16 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/white">
 
+
+
+
+<!--    *****************************-->
+<!--just add elevation tag with value 22dp and order the code -->
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+
         android:text="@string/add_shadow"
-        android:layout_margin="@dimen/marginLarge"
-        android:padding="@dimen/paddingNormal"
-        android:background="@color/teal_200"
-        android:textSize="@dimen/textCaption"
+        style="@style/btn_shadow_style"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
